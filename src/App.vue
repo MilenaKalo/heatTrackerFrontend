@@ -1,10 +1,38 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div>
+    <Navbar :is-logged-in="isLoggedIn" />
+    <router-view />
+  </div>
 </template>
+
+<script>
+import { onBeforeMount, computed } from 'vue'
+import { useRouter } from 'vue-router'
+import { useStore } from 'vuex'
+
+import Navbar from '@/components/Navbar.vue'
+import './assets/global.css'
+
+export default {
+  components: {
+    Navbar
+  },
+  setup () {
+    const store = useStore()
+    const router = useRouter()
+
+    const isLoggedIn = computed(() => store.state.isLoggedIn)
+
+    onBeforeMount(() => {
+      if (!isLoggedIn.value) {
+        router.push('/login')
+      }
+    })
+
+    return { isLoggedIn }
+  }
+}
+</script>
 
 <style>
 #app {
@@ -22,9 +50,5 @@ nav {
 nav a {
   font-weight: bold;
   color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
 }
 </style>

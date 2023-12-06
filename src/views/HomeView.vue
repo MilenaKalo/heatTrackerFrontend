@@ -1,18 +1,28 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Wooflogo" src="../assets/LogoWuff.png">
+    <h1>Willkommen bei WoofWatcher</h1>
   </div>
+  <Carousel/>
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
-}
+<script setup>
+import Carousel from '@/components/Carousel.vue'
 </script>
+
+<style scoped>
+.home{
+  margin-top: 80px;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+h1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: aliceblue;
+}
+</style>
