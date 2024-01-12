@@ -36,13 +36,14 @@ async function deletePerson () {
 </script>
 
 <template>
+  <h1 class="titleOfPersonView">Benutzerkonto</h1>
   <div class="card mx-auto">
     <img src="../assets/personenplatz.png" class="card-img-top" alt="placeholder">
     <div class="card-body">
       <h5 class="card-title">{{ props.firstname }} {{props.lastname}}</h5>
       <p class="card-text">Profilaktivitäten</p>
       <router-link to="/updateProfile" class="btn btn-primary">Angaben aktualisieren</router-link>
-      <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <button type="button" class="btn btn-danger m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Profil löschen
       </button>
 
@@ -75,5 +76,10 @@ async function deletePerson () {
   margin-top: 10rem;
   border-radius: 1rem;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.titleOfPersonView{
+  margin-top: 5rem;
+  text-align: center;
+  color: aliceblue;
 }
 </style>

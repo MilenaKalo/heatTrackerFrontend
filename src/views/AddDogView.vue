@@ -14,7 +14,7 @@
               <form @submit="register">
                 <div class="form-group">
                   <label for="name">Name</label>
-                  <input v-model="name" type="text" id="name" class="form-control" required>
+                  <input v-model="name" type="text" id="name" class="form-control" placeholder="Name" required>
                 </div>
                 <div class="form-group">
                   <label for="birthdate">Geburtsdatum</label>
@@ -22,7 +22,7 @@
                 </div>
                 <div class="form-group">
                   <label for="breed">Rasse</label>
-                  <input v-model="breed" type="text" id="breed" class="form-control" required>
+                  <input v-model="breed" type="text" id="breed" class="form-control" placeholder="Rasse" required>
                 </div>
                 <button type="submit" class="btn btn-info">Hund anlegen</button>
               </form>

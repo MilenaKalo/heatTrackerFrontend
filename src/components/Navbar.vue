@@ -24,11 +24,11 @@ const logout = () => {
       </button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menü</h5>
+          <h3 class="offcanvas-title" id="offcanvasNavbarLabel">Menü</h3>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 my-3">
             <li class="nav-item">
               <router-link to="/home" class="nav-link active" active-class="active-link">Home</router-link>
             </li>
@@ -42,16 +42,16 @@ const logout = () => {
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/profile" active-class="active-link">
-                Profil
+                Benutzerkonto
               </router-link>
             </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/error" active-class="active-link">
-                Error
-              </router-link>
-            </li>
+<!--            <li class="nav-item">-->
+<!--              <router-link class="nav-link" to="/error" active-class="active-link">-->
+<!--                Error-->
+<!--              </router-link>-->
+<!--            </li>-->
           </ul>
-          <button type="button" @click="logout" class="btn btn-secondary position-absolute bottom-0 end-0 m-2" data-bs-dismiss="offcanvas">
+          <button type="button" @click="logout" class="btn btn-secondary btn-lg position-absolute bottom-0 end-0 m-2" data-bs-dismiss="offcanvas">
           Logout</button>
         </div>
       </div>
@@ -77,5 +77,8 @@ img{
 
 .logo-container {
   margin-right: 10px;
+}
+.nav-item{
+  font-size: 2rem;
 }
 </style>

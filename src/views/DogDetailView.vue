@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1 class="titleOfDogView">Detailansicht deines Hundes</h1>
     <div class="row">
       <div class="col-md-6 my-5">
         <UpdateDog :id="dogId" />
@@ -176,5 +177,10 @@ onMounted(async () => {
 .titleHealthRecord{
   margin-top: 40px;
   margin-bottom: 40px;
+}
+.titleOfDogView{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: aliceblue;
 }
 </style>

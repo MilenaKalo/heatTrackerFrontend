@@ -11,17 +11,20 @@
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div>
-        <p>kurze EInführung in die App und der Funktionaliäten</p></div>
+        <p>kurze Einführung in die App und der Funktionaliäten</p></div>
       </div>
+
       <div class="carousel-item">
          <div>
           <p>Ein interaktiver Kalender, in dem Benutzer den Beginn und die Dauer der Läufigkeit ihrer Hündin verfolgen können.
             Benutzer können Notizen über Veränderungen im Verhalten oder in der Gesundheit ihrer Hündin hinzufügen</p></div>
       </div>
+
       <div class="carousel-item">
         <div>
         <p>Symptome und Warnsignale</p>
@@ -29,6 +32,14 @@
           Warnsignale für mögliche Gesundheitsprobleme während der Läufigkeit.
         </p></div>
       </div>
+        <div class="carousel-item">
+          <div>
+            <p>Navigation in der App</p>
+            <p> Die Navigation über die App ist einfach und intuitiv. Die App ist in verschiedene Bereiche unterteilt,
+              die über die Navigationsleiste am oberen rechten Bildschirmrand zugänglich sind.
+            </p></div>
+        </div>
+
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -59,5 +70,10 @@
     margin-bottom: 1rem;
     text-align: center;
     color: aliceblue;
+  }
+  p{
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: bold;
   }
 </style>

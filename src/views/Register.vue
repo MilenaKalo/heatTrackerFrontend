@@ -15,11 +15,11 @@
               <form @submit="register">
                 <div class="form-group">
                   <label for="firstName">Vorname</label>
-                  <input v-model="firstName" type="text" id="firstName" class="form-control" required>
+                  <input v-model="firstName" type="text" id="firstName" class="form-control" placeholder="Vorname" required>
                 </div>
                 <div class="form-group">
                   <label for="lastName">Nachname</label>
-                  <input v-model="lastName" type="text" id="lastName" class="form-control" required>
+                  <input v-model="lastName" type="text" id="lastName" class="form-control" placeholder="Nachname" required>
                 </div>
                 <div class="form-group">
                   <label for="email">E-Mail</label>
@@ -27,7 +27,7 @@
                 </div>
                 <div class="form-group">
                   <label for="password">Passwort</label>
-                  <input v-model="password" type="password" id="password" class="form-control" required>
+                  <input v-model="password" type="password" id="password" class="form-control" placeholder="Passwort" required>
                 </div>
                 <button type="submit" class="btn btn-info">Registrieren</button>
               </form>

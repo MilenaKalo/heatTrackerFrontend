@@ -62,7 +62,7 @@ async function login (event) {
               </div>
               <div class="mb-3">
                 <label for="password" class="form-label">Passwort</label>
-                <input v-model="password" type="password" class="form-control" id="password" required>
+                <input v-model="password" type="password" class="form-control" id="password" placeholder="Passwort" required>
               </div>
               <button type="submit" class="btn btn-info m-1">Login</button>
               <button type="button" class="btn btn-secondary m-1">
