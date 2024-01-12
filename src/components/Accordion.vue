@@ -46,21 +46,21 @@
       <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
         <div class="accordion-body">
 
-          <strong>Proöstrus:</strong>
+          <strong>Proöstrus:</strong><br>
           Verhalten: Interesse an Rüden, jedoch keine Paarungsbereitschaft.
-          Körperliche Anzeichen: Leichte Schwellung der Vulva, Blutstropfen.
+          <br> Körperliche Anzeichen: Leichte Schwellung der Vulva, Blutstropfen.
           <br>
-          <strong>Östrus:</strong>
+          <strong>Östrus:</strong><br>
           Verhalten: Paarungsbereitschaft, an Rüden interessiert.
-          Körperliche Anzeichen: Maximale Schwellung der Vulva, rötlicher Ausfluss.
+          <br>Körperliche Anzeichen: Maximale Schwellung der Vulva, rötlicher Ausfluss.
           <br>
-          <strong>Metöstrus:</strong>
+          <strong>Metöstrus:</strong><br>
           Verhalten: Nachlassende Paarungsbereitschaft.
-          Körperliche Anzeichen: Rückgang der Schwellung, Ausfluss wird blasser.
+          <br> Körperliche Anzeichen: Rückgang der Schwellung, Ausfluss wird blasser.
           <br>
-          <strong>Anöstrus:</strong>
+          <strong>Anöstrus:</strong><br>
           Verhalten: Keine Paarungsbereitschaft.
-          Körperliche Anzeichen: Normale Vulvagröße, kein blutiger Ausfluss.
+          <br> Körperliche Anzeichen: Normale Vulvagröße, kein blutiger Ausfluss.
         </div>
       </div>
     </div>
@@ -78,7 +78,7 @@
           Beschreibung:
 
           Verlängerte oder ständige Paarungsbereitschaft ohne deutliche Ruhephasen.
-          Ursachen:
+          <br>Ursachen:
 
           Hormonelle Dysregulation, Eierstockzysten.
             <br>
@@ -86,7 +86,7 @@
           Beschreibung:
 
           Die Hündin zeigt mehrere Phasen der Paarungsbereitschaft mit Ruhepausen dazwischen.
-          Ursachen:
+          <br>Ursachen:
 
           Hormonelle Unregelmäßigkeiten, Probleme mit dem Östruszyklus.
           <br>
@@ -94,7 +94,7 @@
           Beschreibung:
 
           Die Hündin durchläuft den Läufigkeitszyklus, zeigt jedoch kaum äußere Anzeichen.
-          Ursachen:
+          <br> Ursachen:
 
           Hormonelle Ungleichgewichte, insbesondere niedrige Östrogenwerte.
           <br>
@@ -102,6 +102,7 @@
           Beschreibung:
 
           Die Hündin zeigt Verhaltensweisen, die einer Trächtigkeit ähneln, obwohl sie nicht trächtig ist.
+          <br>
           Ursachen:
 
           Hormonelle Veränderungen nach der Läufigkeit, besonders erhöhte Prolaktinwerte.
