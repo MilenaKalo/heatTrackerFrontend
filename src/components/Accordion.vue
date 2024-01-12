@@ -12,8 +12,12 @@
       </h2>
       <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <strong>Was ist Läufigkeit bei Hündinnen?
-            Warum ist es wichtig, die Läufigkeit zu verstehen?</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <strong>
+            Läufigkeit:</strong> Der Begriff Läufigkeit bezieht sich auf den reproduktiven Zyklus von Hündinnen. <br>
+            <br>
+          <strong>  Dauer: </strong> Der Läufigkeitszyklus dauert etwa 21 Tage, kann jedoch individuell variieren.<br>
+            <strong>  Beginn:  </strong>Typischerweise beginnt die Läufigkeit bei Hündinnen im Alter von etwa 6 bis 12 Monaten.<br>
+              <strong>  Häufigkeit:  </strong>Hündinnen durchlaufen die Läufigkeit ungefähr ein- bis zweimal pro Jahr.<br>
         </div>
       </div>
     </div>
@@ -26,22 +30,37 @@
       </h2>
       <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <strong>roöstrus (Vorläufige Phase)
-            Östrus (Brunstphase)
-            Metöstrus (Nachläufige Phase)
-            Anöstrus (Ruhephase).</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <strong>Proöstrus (Vorläufige Phase) <br>
+            Östrus (Brunstphase)<br>
+            Metöstrus (Nachläufige Phase)<br>
+            Anöstrus (Ruhephase).</strong>
         </div>
       </div>
     </div>
     <div class="accordion-item">
       <h2 class="accordion-header">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Anzeichen der Läufigkeit:
+          Änderungen während Läufigkeit:
         </button>
       </h2>
       <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <strong>Verhaltensänderungen, Körperänderungen </strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+
+          <strong>Proöstrus:</strong>
+          Verhalten: Interesse an Rüden, jedoch keine Paarungsbereitschaft.
+          Körperliche Anzeichen: Leichte Schwellung der Vulva, Blutstropfen.
+          <br>
+          <strong>Östrus:</strong>
+          Verhalten: Paarungsbereitschaft, an Rüden interessiert.
+          Körperliche Anzeichen: Maximale Schwellung der Vulva, rötlicher Ausfluss.
+          <br>
+          <strong>Metöstrus:</strong>
+          Verhalten: Nachlassende Paarungsbereitschaft.
+          Körperliche Anzeichen: Rückgang der Schwellung, Ausfluss wird blasser.
+          <br>
+          <strong>Anöstrus:</strong>
+          Verhalten: Keine Paarungsbereitschaft.
+          Körperliche Anzeichen: Normale Vulvagröße, kein blutiger Ausfluss.
         </div>
       </div>
     </div>
@@ -49,12 +68,44 @@
     <div class="accordion-item">
       <h2 class="accordion-header">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          Anzeichen der Läufigkeit:
+          Störungen während Läufigkeit:
         </button>
       </h2>
       <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <strong>Verhaltensänderungen, Körperänderungen </strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <strong>
+          Dauerhitze bei Hündinnen:</strong>
+          Beschreibung:
+
+          Verlängerte oder ständige Paarungsbereitschaft ohne deutliche Ruhephasen.
+          Ursachen:
+
+          Hormonelle Dysregulation, Eierstockzysten.
+            <br>
+          <strong> Splitläufigkeit:</strong>
+          Beschreibung:
+
+          Die Hündin zeigt mehrere Phasen der Paarungsbereitschaft mit Ruhepausen dazwischen.
+          Ursachen:
+
+          Hormonelle Unregelmäßigkeiten, Probleme mit dem Östruszyklus.
+          <br>
+          <strong>  Stille Läufigkeit:</strong>
+          Beschreibung:
+
+          Die Hündin durchläuft den Läufigkeitszyklus, zeigt jedoch kaum äußere Anzeichen.
+          Ursachen:
+
+          Hormonelle Ungleichgewichte, insbesondere niedrige Östrogenwerte.
+          <br>
+          <strong> Scheinträchtigkeit: </strong>
+          Beschreibung:
+
+          Die Hündin zeigt Verhaltensweisen, die einer Trächtigkeit ähneln, obwohl sie nicht trächtig ist.
+          Ursachen:
+
+          Hormonelle Veränderungen nach der Läufigkeit, besonders erhöhte Prolaktinwerte.
+
         </div>
       </div>
     </div>
@@ -62,64 +113,15 @@
     <div class="accordion-item">
       <h2 class="accordion-header">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-          Anzeichen der Läufigkeit:
+          Bedeutung der Läufigkeit:
         </button>
       </h2>
       <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <strong>Verhaltensänderungen, Körperänderungen </strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-          Anzeichen der Läufigkeit:
-        </button>
-      </h2>
-      <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>Verhaltensänderungen, Körperänderungen </strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-          Anzeichen der Läufigkeit:
-        </button>
-      </h2>
-      <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>Verhaltensänderungen, Körperänderungen </strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-          Anzeichen der Läufigkeit:
-        </button>
-      </h2>
-      <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>Verhaltensänderungen, Körperänderungen </strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-          Anzeichen der Läufigkeit:
-        </button>
-      </h2>
-      <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>Verhaltensänderungen, Körperänderungen </strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <strong>  Fortpflanzungsmanagement:</strong> Für Züchter ist die genaue Kenntnis des Läufigkeitszyklus entscheidend für eine gezielte Zucht. <br>
+          <strong>   Verhaltensmodifikation: </strong> Hundebesitzer können Verhaltensänderungen während der Läufigkeit erkennen und darauf reagieren.<br>
+          <strong>   Gesundheitsüberwachung: </strong> Die Verfolgung ermöglicht die Aufzeichnung von Gesundheitsdaten, einschließlich Tierarztbesuche und Medikamentengabe.<br>
+          <strong>   Planung des Alltags: </strong> Durch das Verständnis der Läufigkeitsphasen können Hundebesitzer ihren Alltag besser planen und angemessen reagieren.
         </div>
       </div>
     </div>
